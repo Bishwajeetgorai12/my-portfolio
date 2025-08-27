@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bishwajeet | Portfolio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Bishwajeet</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills and Tools </a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <img src="my_pic.jpg" alt="Profile Picture" class="profile-pic">
+      <h2>Hi, I'm <span class="typing"></span></h2>
+      <p>B.Tech Electrical Engineering </p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a 3rd year B.Tech student in Electrical Engineering.  
+      A fresher passionate about learning and exploring technology, especially web design and programming.  
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills and Tools</h2>
+    <div class="skill-list">
+      <span>C</span>
+      <span>C++</span>
+      <span>Python</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Web Design</span>
+    </div>
+    <h2>Tools I Use</h2>
+    <div class="tool-list">
+      <span>Windows</span>
+      <span>VS Code</span>
+      <span>Code::Blocks</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Web Design Practice</h3>
+        <p>Experimented with layouts, animations, and styling.</p>
+      </div>
+      <div class="card">
+        <h3>Mini C++ Programs</h3>
+        <p>Basic problem-solving and algorithm implementation.</p>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-card">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Your Email" required />
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <!-- Status message appears here -->
+    <p class="form-message"></p>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bishwajeet Gorai | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
