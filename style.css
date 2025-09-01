@@ -228,6 +228,11 @@ footer {
   color: #8b949e;
   border-top: 1px solid #21262d;
 }
+.social-links {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
 .linkedin-btn {
   display: inline-flex;
   align-items: center;
@@ -267,4 +272,5 @@ footer {
     gap: 10px;
   }
 }
+
 
