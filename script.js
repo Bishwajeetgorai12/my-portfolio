@@ -1,6 +1,6 @@
 // Typing effect
 const typingElement = document.querySelector(".typing");
-const words = ["Bishwajeet Gorai ", "a Developer", "a Designer", "a Creator"];
+const words = ["Bishwajeet Gorai ", "a Developer", "a Designer"];
 let wordIndex = 0;
 let charIndex = 0;
 let currentWord = "";
@@ -83,3 +83,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
